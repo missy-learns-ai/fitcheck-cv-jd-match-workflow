@@ -17,7 +17,7 @@ Rules:
 - If a field has no matching information, return its empty value ("", [], or false).
 - Field names must match the schema exactly. Do not rename or nest fields.
 - must_have_skills and responsibilities must be flat arrays, not nested objects.
-- Skills must be specific (e.g. "Python" not "programming languages", "DCF modelling" not "financial skills").
+- Skills must be specific (e.x. "Python" not "programming languages", "DCF modelling" not "financial skills").
 - keywords should be role-relevant terms useful for CV matching, max 15.
 - job_family must be inferred freely from the JD (e.g. "Data Scientist", "Management Consultant", "Software Engineer", "Product Manager"). Do not limit to a fixed list.
 - seniority_level must be one of: Junior | Mid | Senior | Graduate | Internship.
