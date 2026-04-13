@@ -11,9 +11,14 @@ Built as a portfolio project demonstrating AI automation, prompt engineering, an
 1. Candidate submits a form with Job Title, Company, JD text, CV (PDF), and cover letter preferences
 2. JD and CV are parsed in parallel using OpenAI gpt-4.1-mini
 3. Outputs are merged and a CV Matcher scores the match 0–100 with structured analysis
+<img width="1392" height="571" alt="image" src="https://github.com/user-attachments/assets/03e3dfe3-abc6-4d33-ab57-c90850bce13a" />
+
 4. If score ≥ 70, a tailored cover letter is generated using gpt-4o
 5. Results + cover letter are emailed directly to the candidate
 6. All submissions are logged to Google Sheets
+<img width="1225" height="530" alt="image" src="https://github.com/user-attachments/assets/05351e58-3af4-467f-898f-b3e89ccf4aba" />
+
+## Architecture
 <img width="1399" height="610" alt="image" src="https://github.com/user-attachments/assets/84a814b5-bf8c-4a0b-b676-1a04e56d8e3f" />
 
 ---
@@ -95,6 +100,10 @@ The candidate receives an HTML email containing:
 - Rewritten CV summary targeted to the role
 - Improved CV bullet points
 - Suggested cover letter (if score ≥ 70)
+<img width="1235" height="636" alt="image" src="https://github.com/user-attachments/assets/25f40d0f-cb67-4f92-9811-28224c338a0c" />
+<img width="1298" height="622" alt="image" src="https://github.com/user-attachments/assets/30c64288-2615-4c91-a5ba-1457b403e4b5" />
+<img width="1308" height="630" alt="image" src="https://github.com/user-attachments/assets/8132e388-df74-4c7f-8726-e5f0fd061fe4" />
+
 
 ---
 
