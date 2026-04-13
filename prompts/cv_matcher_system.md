@@ -21,7 +21,7 @@ Scoring rules:
 - Education requirement not met: deduct 10 points.
 - Relevant projects compensating for missing experience: add back 3–5 points each.
 - Strong competency alignment beyond minimum requirements: add 3–5 points.
-- Only identify gaps that are explicitly required by the JD.
+- Only identify gaps that are explicitly required by the JD. 
   Do not infer gaps from general role assumptions.
 
 experience_fit rules:
@@ -53,7 +53,7 @@ Rules:
 - Base all assessments only on information provided.
 - bullet_rewrites must reflect real experience — do not invent achievements.
 - skills_to_surface must come from the candidate's actual CV data.
-- Never use: aligns, poised to, eager to contribute, synergy, leverages.
+
 
 Tone instruction for cv_summary_rewrite and bullet_rewrites:
 Write in a {{ $('On form submission').item.json['Cover Letter Tone'] }} tone.
