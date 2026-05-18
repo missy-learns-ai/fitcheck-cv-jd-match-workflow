@@ -38,16 +38,17 @@ In n8n, create the following credentials under **Settings → Credentials**:
 
 ## 3. Update node references after importing
 
-After importing, open these nodes and reconnect credentials:
+The exported workflow uses placeholders only (no real API keys or n8n credential IDs). After importing, open these nodes and reconnect credentials:
 
-| Node | What to update |
-|---|---|
-| JD Parser | Select your OpenAI credential |
-| CV Parser | Select your OpenAI credential |
-| CV Matcher | Select your OpenAI credential |
-| Cover Letter Generator | Select your OpenAI credential |
-| Store Results | Select your Google Sheets credential + select your spreadsheet |
-| Email Candidate Results | Select your Gmail credential |
+| Node | Placeholder in export | What to update |
+|---|---|---|
+| JD Parser | `YOUR_OPENAI_CREDENTIAL_ID` | Select your OpenAI credential |
+| CV Parser | `YOUR_OPENAI_CREDENTIAL_ID` | Select your OpenAI credential |
+| CV Matcher | `YOUR_OPENAI_CREDENTIAL_ID` | Select your OpenAI credential |
+| Cover Letter Generator | `YOUR_OPENAI_CREDENTIAL_ID` | Select your OpenAI credential |
+| Store Results | `YOUR_GOOGLE_SHEETS_CREDENTIAL_ID` + `YOUR_GOOGLE_SHEET_ID` | Select your Google Sheets credential and spreadsheet |
+| Email Candidate Results | `YOUR_GMAIL_CREDENTIAL_ID` | Select your Gmail credential |
+| Workflow settings | `YOUR_ERROR_WORKFLOW_ID` | Set your Error Handler workflow (optional) |
 
 ---
 
